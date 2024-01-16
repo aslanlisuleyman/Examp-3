@@ -1,0 +1,96 @@
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .swi1{
+    background-image: url("https://assets.architecturaldigest.in/photos/64f85037ec0bc118bdd98aba/1:1/pass/undefined");
+
+  }
+  .swi2{
+background-image: url("https://qul.imgix.net/d9e1310a-52e0-4767-a0ec-9e000792c82b/597238_sld.jpg");
+height: 800px;
+  }
+  .swi3{
+background-image: url("https://static.vecteezy.com/system/resources/previews/033/431/062/non_2x/a-plate-of-food-with-pasta-and-a-cup-of-wine-ai-generated-free-photo.jpg");
+  }
+
+  .swi {
+    height: 750px;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .bn1 {
+    display: inline-block;
+    padding: 0.6em 1.7em;
+    border: 0.1em solid #ffffff;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+    transition: all 0.2s;
+  }
+  
+  .bn1:hover {
+    color: #000000;
+    background-color: #ffffff;
+  }
+
+  .he{
+    display: flex;
+    justify-content: center;
+    gap: 60%;
+    h2{
+        color: white;
+    }
+    
+  }
+  .hea{
+    margin-bottom: 12%;
+    display: flex;
+    flex-direction: column;
+    gap: 210px;
+    p{
+        color: white;
+        
+        font-family: "Indie Flower", cursive;
+        font-size: 62px;
+   
+    line-height: 1.2;
+    font-weight: 400;
+    }
+  }
+
+  .lin{
+    text-decoration: none;
+    color: white;
+
+  }
+  ul{
+    display: flex;
+    gap: 40px;
+    padding-top: 10px;
+  }

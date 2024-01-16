@@ -1,0 +1,19 @@
+.sta{
+    display: flex;
+    img{
+        width: 550px;
+        height: 632px;
+    }
+    justify-content: center;
+}
+
+.amo{
+    display: flex;
+    flex-direction: column;
+    padding-left: 70px;
+    padding-top: 90px;
+    gap: 15px;
+    p{
+        color: rgb(177, 177, 177);
+    }
+}

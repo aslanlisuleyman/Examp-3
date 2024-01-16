@@ -1,0 +1,97 @@
+.input {
+    border: 2px solid white;
+    width: 15em;
+    height: 2.5em;
+    padding-left: 0.8em;
+    outline: none;
+    overflow: hidden;
+    background-color: transparent;
+    border-radius: 10px;
+    transition: all 0.5s;
+  }
+  
+  .input:hover,
+  .input:focus {
+    border: 2px solid #4A9DEC;
+    box-shadow: 0px 0px 0px 7px rgb(74, 157, 236, 20%);
+    background-color: white;
+  }
+  .foo{
+    background-color: #27272b;height: 750px;
+    color: rgb(172, 172, 172);
+  }
+  
+  .foote{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    align-items: center;
+    
+    padding-top: 50px;
+    padding-bottom: 40px;
+    
+    ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: flex-start;
+       
+        
+        
+    }
+  }
+  .ic{
+    display: flex;
+    gap: 10px;
+    i{
+        font-size: 40px;
+        color: white;
+    }
+  }
+  .bas{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 40px;
+    padding-bottom: 45px;
+    p{
+        display: flex;
+        justify-content: flex-start;
+    }
+  }
+  .ba{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 45px;
+  }
+  .b{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 150px;
+  }
+  .h{
+    h3{
+        margin-left: 30px;
+        padding-bottom: 50px;
+    }
+    padding-top: 60px;
+  }
+  .p{
+    p{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        color: white;
+    }
+    padding-top: 40px;
+    i{
+        display: flex;
+        align-items: center;
+    }
+  }
+  h3{
+    color: white;
+  }
